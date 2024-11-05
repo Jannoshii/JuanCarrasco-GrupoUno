@@ -12,7 +12,7 @@ export const products = [
     {
         id: 2,
         name: 'Camiseta para hombre de manga larga',
-        price: 150,
+        price: 35,
 
         stock: 5,
         img: 'https://down-cl.img.susercontent.com/file/sg-11134201-23010-gt542ly401lvc6',
@@ -25,7 +25,7 @@ export const products = [
         price: 310,
 
         stock: 5,
-        img: 'https://korde.cl/wp-content/uploads/2024/01/short-deportivo-korde-negro-2024.jpg',
+        img: 'https://doite.cl/media/catalog/product/1/7/17e06dd3c8244d469cbc951b59be1d.jpg',
         category: 'short',
         sizes: ['S', 'M', 'L']
     },
