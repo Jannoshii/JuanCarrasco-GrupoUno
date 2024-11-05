@@ -2,7 +2,7 @@ import Item from "src/Components/Item/item.jsx"
 import { getProducts } from "src/Data/asyncMock.jsx"
 import { useEffect, useState } from "react"
 import Loading from "src/Components/Loading/Loading.jsx"
-import './Itemlist.css'
+import 'src/Components/Item/Itemlist.css'
 
 export default function Itemlist({ products: initialProducts }){
     const [products, setProducts] = useState(initialProducts || []);
