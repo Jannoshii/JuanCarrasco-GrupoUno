@@ -1,10 +1,10 @@
 import Item from "../Item/item.jsx"
-import { getProducts } from "../../data/asyncMock"
+import {getProducts} from "../../data/asyncMock.jsx";
 import { useEffect, useState } from "react"
 import Loading from "../Loading/Loading.jsx"
-import './Itemlist.css'
+import "./Itemlist.css"
 
-export default function Itemlist({ products: initialProducts }){
+export default function Itemlist({products: initialProducts }){
     const [products, setProducts] = useState(initialProducts || []);
     const [loading, setLoading] = useState(!initialProducts);
 
