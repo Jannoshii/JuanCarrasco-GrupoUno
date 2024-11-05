@@ -1,0 +1,17 @@
+
+.loading-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+}
+.products-grid > * {
+    flex: 0 1 calc(33.333% - 20px);
+}
