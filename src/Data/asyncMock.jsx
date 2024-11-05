@@ -1,7 +1,7 @@
 export const products = [
     {
         id: 1,
-        name: 'XD',
+        name: 'Musculosa De Hombre',
         price: 29.99,
 
         stock: 20,
@@ -11,16 +11,17 @@ export const products = [
     },
     {
         id: 2,
-        name: 'XD',
-        price: 300,
+        name: 'Camiseta para hombre de manga larga',
+        price: 150,
+
         stock: 5,
-        img: 'https://korde.cl/wp-content/uploads/2024/01/short-deportivo-korde-negro-2024.jpg',
-        category: 'short',
+        img: 'https://down-cl.img.susercontent.com/file/sg-11134201-23010-gt542ly401lvc6',
+        category: 'Poleras',
         sizes: ['S', 'M', 'L']
     },
     {
         id: 3,
-        name: 'XD',
+        name: 'Pantalon Corta Viento',
         price: 310,
 
         stock: 5,
@@ -30,7 +31,7 @@ export const products = [
     },
     {
         id: 4,
-        name: 'XD',
+        name: 'Corta Viento',
         price: 310,
 
         stock: 5,
@@ -40,7 +41,7 @@ export const products = [
     },
     {
         id: 5,
-        name: 'XD',
+        name: 'Short De mujer',
         price: 299,
 
         stock: 5,
@@ -50,7 +51,7 @@ export const products = [
     },
     {
         id: 6,
-        name: 'XD',
+        name: 'Short De Hombre',
         price: 300,
 
         stock: 5,
@@ -60,13 +61,13 @@ export const products = [
     },
     {
         id: 7,
-        name: 'XD',
+        name: 'Zapatillas de training',
         price: 310,
 
         stock: 5,
-        img: 'https://korde.cl/wp-content/uploads/2024/01/short-deportivo-korde-negro-2024.jpg',
+        img: 'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCL/50265572_1/w=800,h=800,fit=pad',
         category: 'buzo',
-        sizes: ['S', 'M', 'L']
+        sizes: ['43', '44', '45']
     },
     {
         id: 8,
