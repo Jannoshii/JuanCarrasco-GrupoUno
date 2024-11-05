@@ -1,7 +1,7 @@
-import Item from "../Item/item.jsx"
-import { getProducts } from "../../data/asyncMock"
+import Item from "src/Components/Item/item.jsx"
+import { getProducts } from "src/Data/asyncMock.jsx"
 import { useEffect, useState } from "react"
-import Loading from "../Loading/Loading.jsx"
+import Loading from "src/Components/Loading/Loading.jsx"
 import './Itemlist.css'
 
 export default function Itemlist({ products: initialProducts }){
