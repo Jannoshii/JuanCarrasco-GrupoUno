@@ -1,3 +1,4 @@
+
 export const products = [
     {
         id: 1,
@@ -5,7 +6,7 @@ export const products = [
         price: 29.99,
 
         stock: 20,
-        img: 'https://korde.cl/wp-content/uploads/2024/01/short-deportivo-korde-negro-2024.jpg',
+        img: 'https://purecotton.cl/wp-content/uploads/2022/12/Musculosa-Hombre-Beige-Ola-color-copia.jpg',
         category: 'short',
         sizes: ['S', 'M', 'L', 'XL']
     },
@@ -17,17 +18,17 @@ export const products = [
         stock: 5,
         img: 'https://down-cl.img.susercontent.com/file/sg-11134201-23010-gt542ly401lvc6',
         category: 'Poleras',
-        sizes: ['S', 'M', 'L']
+        sizes: ['S', 'M', 'L','XL']
     },
     {
         id: 3,
-        name: 'Pantalon Corta Viento',
+        name: 'Poleron Deportivo',
         price: 310,
 
         stock: 5,
-        img: 'https://doite.cl/media/catalog/product/1/7/17e06dd3c8244d469cbc951b59be1d.jpg',
+        img: 'https://www.roly.cl/media/catalog/product/cache/5bbf92fd90264cfd0d036d0d3ff79904/c/a/ca1113_melbourne_poleron_hombre_negro_frente_18.jpg',
         category: 'short',
-        sizes: ['S', 'M', 'L']
+        sizes: ['S', 'M', 'L','XL']
     },
     {
         id: 4,
@@ -35,9 +36,9 @@ export const products = [
         price: 310,
 
         stock: 5,
-        img: 'https://korde.cl/wp-content/uploads/2024/01/short-deportivo-korde-negro-2024.jpg',
+        img: 'https://dojiw2m9tvv09.cloudfront.net/12958/product/7014-1-blk8711.jpg',
         category: 'short',
-        sizes: ['S', 'M', 'L']
+        sizes: ['S', 'M', 'L','XL']
     },
     {
         id: 5,
@@ -79,46 +80,6 @@ export const products = [
         category: 'buzo',
         sizes: ['S', 'M', 'L']
     },
-    {
-        id: 9,
-        name: 'XD',
-        price: 299,
-
-        stock: 5,
-        img: 'https://korde.cl/wp-content/uploads/2024/01/short-deportivo-korde-negro-2024.jpg',
-        category: 'buzo',
-        sizes: ['S', 'M', 'L']
-    },
-    {
-        id: 10,
-        name: 'XD',
-        price: 300,
-
-        stock: 5,
-        img: 'https://korde.cl/wp-content/uploads/2024/01/short-deportivo-korde-negro-2024.jpg',
-        category: 'buzo',
-        sizes: ['S', 'M', 'L']
-    },
-    {
-        id: 11,
-        name: 'XD',
-        price: 310,
-
-        stock: 5,
-        img: 'https://korde.cl/wp-content/uploads/2024/01/short-deportivo-korde-negro-2024.jpg',
-        category: 'buzo',
-        sizes: ['S', 'M', 'L']
-    },
-    {
-        id: 12,
-        name: 'XD',
-        price: 310,
-
-        stock: 5,
-        img: 'https://korde.cl/wp-content/uploads/2024/01/short-deportivo-korde-negro-2024.jpg',
-        category: 'buzo',
-        sizes: ['S', 'M', 'L']
-    },
 ];
 
 export const getProducts = () => {
@@ -137,4 +98,5 @@ export const getProductById = (id) => {
         }, 2000);
     });
 };
+
 
